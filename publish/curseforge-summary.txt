@@ -1,0 +1,1 @@
+See exactly what killed you: damage timeline, armor hits, item despawn timer, death history and a waypoint back. Fabric + NeoForge 1.21.1

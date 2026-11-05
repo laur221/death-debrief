@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "deathdebrief"
+version = "${mod_version}"
+displayName = "Death Debrief"
+logoFile = "icon.png"
+authors = "fr4me"
+description = '''Shows what killed you: every hit, damage before/after armor, coordinates and item despawn timer.'''
+
+[[dependencies.deathdebrief]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.deathdebrief]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "deathdebrief",
+  "version": "${version}",
+  "name": "Death Debrief",
+  "description": "Shows what killed you: every hit, damage before/after armor, coordinates and item despawn timer.",
+  "authors": ["fr4me"],
+  "license": "MIT",
+  "icon": "assets/deathdebrief/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.kridder.deathdebrief.DeathDebrief"],
+    "client": ["dev.kridder.deathdebrief.DeathDebriefClient"],
+    "journeymap": ["dev.kridder.deathdebrief.JourneyMapPlugin"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
